@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 import { Cabin } from 'next/font/google'
 import { cn } from '@/lib/utils'
 
-export const cabin = Cabin({
+const cabin = Cabin({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   display: 'swap',
