@@ -9,12 +9,12 @@ export default function Home() {
       <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 grid-flow-dense gap-8 container">
         {/* VARIANT ONE */}
         <article className="flex h-80 flex-col justify-between bg-cover bg-no-repeat bg-center shadow-md py-6 px-7 bg-black/50 bg-blend-overlay" style={{ backgroundImage: `url(${'https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_38-385x300.jpg'})`}}>
-          <div className="h-52 overflow-y-hidden">
+          <div className="overflow-y-hidden">
             <Link className={cn(buttonVariants({ variant: 'tag' }), 'mb-3')} href='/technology'>
                 technology
             </Link>
             <h2 className="text-white font-bold text-2xl mb-4">Are rock concerts really coming back into fashion?</h2>
-            <p className="text-neutral-300 text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente.</p>
+            <p className="cutoff-text text-neutral-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente.</p>
           </div>
           <div className="flex gap-x-2 items-center mt-4">
             <div className="relative w-6 h-6">
@@ -25,12 +25,12 @@ export default function Home() {
         </article>
         {/* VARIANT TWO */}
         <article className="flex flex-col h-80 justify-between shadow-md py-6 px-7 bg-white">
-          <div className="h-52 overflow-y-hidden">
+          <div className="overflow-y-hidden">
             <Link className={cn(buttonVariants({ variant: 'tag' }), 'mb-3')} href='/technology'>
                 technology
             </Link>
             <h2 className="text-black font-bold text-2xl mb-4">Are rock concerts really coming back into fashion?</h2>
-            <p className="text-neutral-700 text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente.</p>
+            <p className="cutoff-text text-neutral-700 text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente.</p>
           </div>
           <div className="flex gap-x-2 items-center mt-4">
             <div className="relative w-6 h-6">
@@ -45,12 +45,12 @@ export default function Home() {
             <Image src='https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_38-385x300.jpg' alt="image-one" fill className="object-cover object-center"/>
           </div>
           <div className="h-full flex flex-col justify-between sm:w-1/2 w-full py-6 px-7">
-            <div className="h-52 overflow-y-hidden">
+            <div className="overflow-y-hidden">
               <Link className={cn(buttonVariants({ variant: 'tag' }), 'mb-3')} href='/technology'>
                   technology
               </Link>
               <h2 className="text-white sm:text-black font-bold text-2xl mb-4">Are rock concerts really coming back into fashion?</h2>
-              <p className="text-neutral-300 sm:text-neutral-700 text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente.</p>
+              <p className="cutoff-text text-neutral-300 sm:text-neutral-700 text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente.</p>
             </div>
             <div className="flex gap-x-2 items-center mt-4">
               <div className="relative w-6 h-6">
@@ -79,12 +79,12 @@ export default function Home() {
         </article>
         {/* VARIANT ONE */}
         <article className="flex h-80 flex-col justify-between bg-cover bg-no-repeat bg-center shadow-md py-6 px-7 bg-black/50 bg-blend-overlay" style={{ backgroundImage: `url(${'https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_38-385x300.jpg'})`}}>
-          <div className="h-52 overflow-y-hidden">
+          <div className="overflow-y-hidden">
             <Link className={cn(buttonVariants({ variant: 'tag' }), 'mb-3')} href='/technology'>
                 technology
             </Link>
             <h2 className="text-white font-bold text-2xl mb-4">Are rock concerts really coming back into fashion?</h2>
-            <p className="text-neutral-300 text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente.</p>
+            <p className="cutoff-text text-neutral-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente.</p>
           </div>
           <div className="flex gap-x-2 items-center mt-4">
             <div className="relative w-6 h-6">
@@ -95,12 +95,12 @@ export default function Home() {
         </article>
         {/* VARIANT TWO */}
         <article className="flex flex-col h-80 justify-between shadow-md py-6 px-7 bg-white">
-          <div className="h-52 overflow-y-hidden">
+          <div className="overflow-y-hidden">
             <Link className={cn(buttonVariants({ variant: 'tag' }), 'mb-3')} href='/technology'>
                 technology
             </Link>
             <h2 className="text-black font-bold text-2xl mb-4">Are rock concerts really coming back into fashion?</h2>
-            <p className="text-neutral-700 text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente.</p>
+            <p className="cutoff-text text-neutral-700 text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente.</p>
           </div>
           <div className="flex gap-x-2 items-center mt-4">
             <div className="relative w-6 h-6">
@@ -115,12 +115,12 @@ export default function Home() {
             <Image src='https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_38-385x300.jpg' alt="image-one" fill className="object-cover object-center"/>
           </div>
           <div className="h-full flex flex-col justify-between sm:w-1/2 w-full py-6 px-7">
-            <div className="h-52 overflow-y-hidden">
+            <div className="overflow-y-hidden">
               <Link className={cn(buttonVariants({ variant: 'tag' }), 'mb-3')} href='/technology'>
                   technology
               </Link>
               <h2 className="text-white sm:text-black font-bold text-2xl mb-4">Are rock concerts really coming back into fashion?</h2>
-              <p className="text-neutral-300 sm:text-neutral-700 text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente.</p>
+              <p className="cutoff-text text-neutral-300 sm:text-neutral-700 text-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio qui alias placeat ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente. ipsam numquam, nemo facilis exercitationem neque sapiente.</p>
             </div>
             <div className="flex gap-x-2 items-center mt-4">
               <div className="relative w-6 h-6">
